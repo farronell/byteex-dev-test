@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Correct paths to the public folder
+const sofiaPro = localFont({
+  src: "./font/SofiaProRegular.woff2", 
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const suisseinTl = localFont({
+  src: "/font/suisseintl.woff2",  
+  variable: "--font-suisseintl"
 });
 
 export const metadata: Metadata = {
@@ -23,12 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html
+      lang="en"
+      className={`${sofiaPro.className} ${suisseinTl.className}`}
+    >
+      <body>{children}</body>
     </html>
   );
 }
