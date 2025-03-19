@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"reviews_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Irure commodo nulla qui cillum enim. Fugiat proident ad veniam minim ex. Voluptate officia laborum nulla aliqua."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

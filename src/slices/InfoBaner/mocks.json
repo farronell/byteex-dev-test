@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"info_baner_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Commodo cupidatat et ipsum cillum id dolore. Ea ex ipsum eu tempor dolor eiusmod. Nisi do ea labore aliquip reprehenderit nisi ullamco tempor excepteur culpa proident ex nostrud irure irure."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

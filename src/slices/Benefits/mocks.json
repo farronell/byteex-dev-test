@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"benefits_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ex mollit laborum id. Consequat reprehenderit ex et occaecat veniam irure adipisicing tempor. Magna esse anim officia."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

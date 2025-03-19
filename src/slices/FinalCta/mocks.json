@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"fintal_cta_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Do veniam et dolore dolore sit ut magna. Duis aute elit eu id adipisicing excepteur id sit in."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

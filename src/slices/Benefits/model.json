@@ -1,0 +1,28 @@
+{
+  "id": "benefits",
+  "type": "SharedSlice",
+  "name": "Benefits",
+  "description": "Benefits",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "benefits_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Benefits Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

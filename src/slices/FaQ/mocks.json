@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"faq_title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Non velit ex Lorem cupidatat commodo irure voluptate eiusmod. Ut tempor dolor dolor nostrud ea commodo consectetur velit ut Lorem. Id eiusmod sint veniam."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

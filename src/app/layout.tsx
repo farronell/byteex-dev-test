@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
 
-// Correct paths to the public folder
 const sofiaPro = localFont({
-  src: "./font/SofiaProRegular.woff2", 
+  src: "./font/SofiaProRegular.woff2",
 });
 
 const suisseinTl = localFont({
-  src: "/font/suisseintl.woff2",  
-  variable: "--font-suisseintl"
+  src: "/font/suisseintl.woff2",
+  variable: "--font-suisseintl",
 });
 
 export const metadata: Metadata = {
@@ -23,10 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${sofiaPro.className} ${suisseinTl.className}`}
-    >
+    <html lang="en" className={`${sofiaPro.className} ${suisseinTl.className}`}>
       <body>{children}</body>
     </html>
   );
